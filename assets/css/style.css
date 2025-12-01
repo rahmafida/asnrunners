@@ -1,0 +1,14 @@
+:root {
+    --primary: #C3E92D;
+    --success: #3DAB25;
+    --black: #121212;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.primary-bg {
+    color: white;
+    background-color: var(--primary);
+}
