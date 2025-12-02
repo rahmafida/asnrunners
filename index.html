@@ -6,14 +6,127 @@
     <title>ASN Runners</title>
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="row primary-bg text-center p-5">
-        <div class="col">
-            Welcome ASN Runners
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top py-3 black-bg text-bebas-neue-regular">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center">
+          <img src="assets/images/logo.webp" alt="icon" width="120" height="80" class="ms-5">
+          CV Citra Revin Teknologi
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex">
+          <div class="collapse navbar-collapse fs-5" id="navbarNav">
+            <a class="nav-link mx-4 active" href="#">H O M E</a>
+            <a class="nav-link mx-4" href="#">A B O U T</a>
+            <a class="nav-link mx-4" href="#">E V E N T</a>
+            <a class="nav-link mx-4" href="#">M E M B E R</a>
+            <a class="nav-link mx-4" href="#">C O N T A C T</a>
+          </div>
         </div>
+        <button type="button" class="btn primary-bg btn-lg mx-5">Contact Us</button>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./assets/images/caraousel-1.webp" class="d-block w-100" alt="Image 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./assets/images/caraousel-1.webp" class="d-block w-100" alt="Image 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/caraousel-1.webp" class="d-block w-100" alt="Image 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    <!-- end of carousel -->
+
+    <!-- about -->
+     <section id="about">
+      <div class="container py-5 mt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./assets/images/about.png" alt="About Runners" class="about-image">
+          </div>
+          <div class="col-sm-6">
+            <img src="./assets/images/graphic-box.png" alt="Graphic Runners">
+
+            <div class="mt-5 text-bebas-neue-regular mt-5">
+              <div class="fs-6 text-secondary">- S e l a m a t&nbsp;&nbsp;&nbsp;&nbsp;D a t a n g -</div>
+              <div class="fs-1">
+                <strong>A S N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R U N N E R S</strong>
+              </div>
+            </div>
+            
+            <div class="mt-4 text-noto-sans-regular">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A est, ipsam molestias ducimus odit repudiandae nisi porro ullam voluptates. Totam deserunt est quod pariatur, dicta ex repudiandae amet itaque ut quisquam repellendus modi iste sapiente consectetur dolore qui, fugit cupiditate earum. Magnam, doloribus nostrum ipsam nihil natus at accusantium quae.
+            </div>
+
+            <div class="text-bebas-neue-regular">
+              <button type="button" class="btn primary-bg btn-lg mt-5">S e l e n g k a p n y a</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- end about -->
+
+    <!-- event -->
+     <section id="event">
+      <div class="container py-5 mt-5">
+        <div class="row">
+          <div class="col-sm-12 text-center fs-3">
+            section event
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- end of event -->
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js" type="text/javascript"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script> -->
   </body>
 </html>

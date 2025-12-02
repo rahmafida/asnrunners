@@ -4,6 +4,21 @@
     --black: #121212;
 }
 
+.text-bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .text-primary {
     color: var(--primary);
 }
@@ -11,4 +26,31 @@
 .primary-bg {
     color: white;
     background-color: var(--primary);
+}
+
+.black-bg {
+    color: white;
+    background-color: var(--black);
+}
+
+.primary-bg {
+    color: white;
+    background-color: var(--primary) !important;   
+}
+
+.primary-btn {
+    color: white;
+    background-color: var(--primary); 
+}
+
+/* .navbar .nav-link {
+    font-size: 24px;
+} */
+
+
+#about .about-image {
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 50%;
 }
