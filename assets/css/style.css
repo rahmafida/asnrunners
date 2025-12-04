@@ -12,6 +12,7 @@ html {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  /* letter-spacing: 2px; */
 }
 
 .text-noto-sans-regular {
@@ -60,11 +61,47 @@ html {
     font-size: 24px;
 } */
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+}
+
+.black-bg {
+  background: #000;
+}
+
 .carousel img {
     height: 100vh !important;
     width: 80% !important;
     margin-left: 10%;
 }
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 50vh;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    transform: scale(0.8);
+  }
+}
+
 
 
 /* #about { */
